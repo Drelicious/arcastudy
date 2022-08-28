@@ -1,0 +1,25 @@
+.drebox {
+    border-radius: 22px;
+    background: linear-gradient(145deg, #dddddd, #ffffff);
+    box-shadow:  28px 28px 56px #a7a7a7,
+                 -28px -28px 56px #ffffff;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.bordernotmax {
+    border-radius: 0px;
+background: #e0e0e0;
+box-shadow:  35px 35px 70px #bebebe,
+             -35px -35px 70px #ffffff;
+}

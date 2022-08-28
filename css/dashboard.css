@@ -1,0 +1,72 @@
+
+
+.content {
+    display: flex;
+    justify-content: left;
+    margin-top: 1.5rem
+}
+
+.headingthing {
+    margin-top: 0.5rem;
+}
+
+.mobilewidget {
+
+}
+
+.pconly {
+
+}
+
+
+.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animate 1.2s;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+.pconly {
+    margin-top: -5rem;
+}
+}
+
+.helpmenu {
+    display: none;
+}
+@media only screen and (max-width: 720px) {
+    .headingthing {
+        margin-top: 0rem;
+    }
+
+
+    .mobilewidget {
+        margin-top: 10px;
+    }
+
+
+    .helpmenu {
+        display: block;
+    }
+}
+
+.content {
+    display: none;
+}
